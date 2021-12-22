@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aprendendo sobre formulários no HTML</title>
+</head>
+
+<body>
+    <form>
+        <!-- A tag <label> </label> ("rótulo") é utilizada para criar dentro do campo texto um nome para mostrar o que o usuário deve digitar naquele campo-->
+        <label for="nome"> Nome: </label>
+
+        <!-- A tag <input type ="" /> é utilizada para criar um campo para o usuário digitar determinada coisa neste caso o type ou tipo de elemento é um texto semântico!-->
+        <input type="text" id="nome" name="nome" placeholder="Insira seu nome" />
+
+        <br />
+
+        <!-- A tag <label> </label> ("rótulo") é utilizada para criar dentro do campo texto um nome para mostrar o que o usuário deve digitar naquele campo-->
+        <label> e-mail: </label>
+
+        <!-- A tag <input type ="" /> é utilizada para criar um campo para o usuário digitar determinada coisa neste caso o type ou tipo de elemento é um e-mail semântico
+        Neste caso o campo é semanticamente um e-mail para o HTML logo necessita da formatação-->
+        <input type="email" placeholder="Insira seu e-mail" />
+        <br />
+
+        <!-- A tag <label> </label> ("rótulo") é utilizada para criar dentro do campo texto um nome para mostrar o que o usuário deve digitar naquele determinado campo-->
+        <label> e-mail: </label>
+
+        <!-- A tag <label> </label> ("rótulo") é utilizada para criar dentro do campo texto um nome para mostrar o que o usuário deve digitar naquele determinado campo-->
+        <label> Senha: </label>
+
+        <!-- A tag <input type ="" /> é utilizada para criar um campo para o usuário digitar determinada coisa neste caso o type ou tipo de elemento é um password semântico
+        Neste caso o campo é semanticamente uma senha para o HTML e já vem no formato senha-->
+        <input type="password" placeholder="Insira sua senha" />
+        <br />
+
+        <!-- A tag <label> </label> ("rótulo") é utilizada para criar dentro do campo texto um nome para mostrar o que o usuário deve digitar naquele campo-->
+        <label> Telefone: </label>
+
+        <!-- A tag <input type ="" /> é utilizada para criar um campo para o usuário digitar determinada coisa neste caso o type ou tipo de elemento é um telefone
+            Neste caso o campo é semanticamente um campo telefone -->
+        <input type="tel" placeholder="Insira o número do seu telefone" />
+        <hr />
+
+        <!-- A tag <input type ="range" /> é utilizada para criar uma barrinha de carregamento que vai de 0 a 100-->
+        <input type="range" min="0" max="100" />
+        <br />
+
+        <!-- A tag <input type ="checkbox" name="" /> é utilizada para criar uma checkbox, porém a variavél name="" precisa ser receber a mesma String-->
+        <input type="checkbox" name="Multiplo" value="Opção 1"/>
+        <input type="checkbox" name="Multiplo" value="Opção 2"/>
+        <input type="checkbox" name="Multiplo" value="Opção 3"/>
+        <br />
+        <!-- A tag <input type ="radio" /> é utilizada para criar um radio button uma checkbox porém a diferença para a checkbox 
+             é que quando maracada uma opção a outra é desmarcada automaticamente-->
+        <input type="radio" name="unico" value="Tipo 1"/>
+        <input type="radio" name="unico" value="Tipo 2"/>
+        <input type="radio" name="unico" value="Tipo 3"/>
+        <hr />
+        <!-- A tag <input type ="date" /> é utilizada para criar um campo para o usuário inserir a data-->
+        <input type="date" />
+        <!-- A tag <input type ="datetime-local" /> é utilizada para criar um campo para inserir a data e horário local-->
+        <input type="datetime-local" />
+        <!-- A tag <input type ="month" /> é utilizada para criar um campo para inserir o mês-->
+        <input type="month" />
+        <!-- A tag <input type ="week" /> é utilizada para criar um campo para inserir a semana-->
+        <input type="week" />
+        <!-- A tag <input type ="time" /> é utilizada para criar um campo para inserir a hora e minutos-->
+        <input type="time"/>
+        <hr />
+        <!-- A tag <input type ="color" /> é utilizada para criar um local para inserir uma caixa de cores para o usuário customizar o documento-->
+        <input type="color">
+        <hr />
+        <!-- A tag <input type ="file" /> é utilizada para criar um botão ou repositório para o usuário realizar o upload de algum arquivo-->
+        <input type="file">
+        <label> Entre com uma url: </label>
+        <!-- A tag <input type ="url" /> é utilizada para criar um campo para o usuário inserir a url-->
+        <input type="url">
+        
+        <!-- A tag <select> </select> é utilizada para criar uma lista de selecionaveis para o usuário navegar-->
+        <select>
+            <!-- A tag <option value ="1">qualquer coisa 1</option> é utilizada para criar dentro da tag select campos de opções para o usuário navegar dentro da select-->
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select>
+        <hr/>
+        <textarea rows="10">Meu texto Inicial</textarea>
+        <hr/>
+        <!-- A tag <button type ="button"> qualquer coisa </button> é utilizada para criar um botão que posteriormente pode realizar ações com JavaScript-->
+        <button type="button">Qualquer botão</button>
+         <!-- A tag <button type ="reset"> qualquer coisa </button> é utilizada para criar um botão que recebe um atributo reset
+              que reseta a página para seu estado inicial de carregamento-->
+        <button type="reset">Limpando a página</button>
+         <!-- A tag <button type ="submit"> qualquer coisa </button> é utilizada para criar um botão que que envia um determinado formulário 
+              através da URL com o metódo GET da própria página-->
+        <button type="submit">Enviar formulário</button>
+        
+    </form>
+</body>
+
+</html>

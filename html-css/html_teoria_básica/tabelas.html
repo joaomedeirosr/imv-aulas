@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprendendo a utilizar tabelas</title>
+    <!-- A tag <style></style> tem a função de possibilitar a adição de um CSS na página-->
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 5px;
+            text-align: left;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- A tag <table></table> tem a função de criar uma tabela no documento com a propriedade style="width: 100%; " a tabela fica do tamanho da página web-->
+    <table style="width: 100%;">
+
+        <!-- A tag <thead></thead> tem a função de criar o cabeçalho da tabela que em padrão vem em negrito!-->
+        <thead>
+
+        <!-- A tag <tr></tr> (table row) tem a função de criar as colunas da tabela-->
+            <tr>
+                <!-- A tag <th></th> (table head) tem a função de criar dentro de cada campo coluna ou seja abaixo do thead os artibutos Nome,Sobrenome, Idade -->
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+            </tr>
+
+        </thead>
+
+        <!-- A tag <tbody></tbody> tem a função de criar no corpo da tabela as linhas -->
+        <tbody>
+
+        <!-- A tag <tr></tr> (table row) tem a função de criar as colunas da tabela-->
+            <tr>
+                <!-- A tag <td></td> tem a função de criar dentro de cada campo linha e adiconar os artibutos Nome,Sobrenome, Idade dentro das linhas abaixo de cada respectiva coluna
+                de Nome Sobrenome e idade -->
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+
+            <tr>
+                 <!-- A tag <td></td> tem a função de criar dentro de cada campo linha e adiconar os artibutos Nome,Sobrenome, Idade dentro das linhas
+                     abaixo de cada respectiva coluna de Nome Sobrenome e idade -->
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>18</td>
+            </tr>
+
+        </tbody>
+    </table>
+</html>

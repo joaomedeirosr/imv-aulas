@@ -1,0 +1,21 @@
+.box {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.p-static {
+  position: static;
+}

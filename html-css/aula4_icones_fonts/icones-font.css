@@ -1,0 +1,22 @@
+/* A ideia para utilizar icones como fontes ou famosos SVG , vem 
+dos ganhos que os SVGs nos trazem em relação a utilizar imagens
+como por exemplo:
+
+=> Quando usamos SVGs conseguimos redimensionar estas imagens sem
+perder qualidade e proporcionalmente , conseguimos alterar cor peso 
+das linhas que desenham esta imagens e ganhamos muito
+pois SVG's são imagens vetorizadas, logo existem muitos ganhos e 
+uma excelente vantagem para se utilizar SVGs ao invéz de img
+*/
+
+.mdi-home {
+  font-size: 50px;
+  color: gray;
+  background-color: blue;
+}
+
+.mdi-home:hover {
+  font-size: 200px;
+  color: black;
+  background-color: yellow;
+}

@@ -1,0 +1,10 @@
+div {
+  background-color: #f90;
+  display: inline-block;
+}
+
+/*
+display: inline-block; faz com que as propriedades
+css respeitem as regras do tamanho da div ou do conteudo
+contido dentro dela.
+**/

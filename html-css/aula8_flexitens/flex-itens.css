@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  background-color: lightgray;
+  border: 5px dashed #000;
+  padding: 10px;
+  height: 400px;
+}
+
+.flex-item {
+  background-color: #f1f1f1;
+  border: 2px solid #ccc;
+  width: 200px;
+  height: 100px;
+}
+.order-first {
+  order: -1;
+}

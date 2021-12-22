@@ -1,0 +1,27 @@
+div {
+  background-color: #f90;
+  /* TOP{70px} RIGHT{50px} BOTTOM{20px} LEFT{30px}
+  O sentido de qualquer atributo do box model 
+  respeita/segue o sentido
+  do relógio sentido horário.
+  */
+  padding: 50px 50px 50px 50px;
+  /*
+  A border parte transparente que moldura o padding e o content.
+  funciona na seguinte estrutura: Espessura {20px} style (jeito) {solid}
+  e Cor {red}
+
+  Ou assim como no padding podemos separa esses parâmetros 
+  como por exemplo:
+
+  border-width : tamanho
+  border-style : estilo ( tracejado ou solida ...)
+  border-color : cor ( red , blue ,green , orange)
+  */
+  border: 20px solid red;
+
+  /* Segue basicamente as mesmas características de propriedades
+dos demais atribuitos básicos de uma página html: border,padding todos
+os demais elementos da pagina*/
+  margin: 50px 50px 50px 50px;
+}

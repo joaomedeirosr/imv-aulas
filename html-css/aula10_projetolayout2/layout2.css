@@ -1,0 +1,83 @@
+/* Formatações Globais do meu arquivo
+css*/
+
+body,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Fira-Code;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #313131;
+  padding: 20px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  cursor: pointer;
+}
+
+/* Tudo que for um item da nav 
+ ou seja estar dentro da nav
+devem ser posicionados
+15 px a esquerda da margin */
+nav li {
+  margin-left: 15px;
+}
+/* Realizar o hover ou seja a "animação" apenas dentro da seguinte
+hierarquia:
+
+     li que tá dentro da ul que tá dentro da nav .
+
+     Logo animação afeta apenas os list items (li) dá 
+     unordened list (ul) não afentando toda a nav.
+*/
+nav ul li :hover {
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+/* Tudo que for "a" ou links "a" 
+que estiverem dentro da nav
+devem ser da cor branco */
+nav a {
+  color: #fff;
+}
+
+.logo-cor {
+  color: green;
+}
+
+#corpo-site {
+  display: flex;
+  font-family: BebasNeue;
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+section > div {
+  flex: 1 1 200px;
+  padding: 10px;
+}
+
+section div img {
+  width: 100%;
+}
+
+section div span {
+  display: block;
+  text-align: center;
+}

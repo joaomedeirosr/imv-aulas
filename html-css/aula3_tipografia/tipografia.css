@@ -1,0 +1,23 @@
+h1,
+h6,
+p {
+  font-family: Montserrat;
+
+  /* Tamanho da fonte pode ser escrita com ( px , rem , em )*/
+  font-size: 1.5rem;
+
+  /* Tipo da fonte pode ser italica, obliqua , negrito e etc.*/
+  font-style: italic;
+
+  /* Representa "decorações" ou desenhos abaixo dos textos fontes
+  ou tipografias pode representar como pro exemplo o sublinhado
+  que tem como parâmetro ou atributo o valor underline*/
+  text-decoration: underline;
+
+  text-align: center;
+
+  /* Representa o peso da fonte indo de 0 a 900 e 
+  podendo ser escrita também com pessos pré-definidos como sendo
+  ( large , small , xxlarga e etc .. )*/
+  font-weight: 250;
+}

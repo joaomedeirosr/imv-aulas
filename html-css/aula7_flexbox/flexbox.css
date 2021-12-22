@@ -1,0 +1,53 @@
+.flexbox {
+  background-color: lightgray;
+  border: 5px dashed;
+  padding: 20px;
+  display: flex;
+  height: 400px;
+
+  /*Dentro do flexbox ou flexcontainer espaça ou dispõe na tela
+  os nossos flex itens ou itens em forma de coluna*/
+  flex-direction: column;
+
+  /*Dentro do flexbox ou flexcontainer espaça ou dispõe na tela
+  os nossos flex itens ou itens em forma de linha*/
+  flex-direction: row;
+
+  /*Dentro do flexbox ou flexcontainer espaça ou dispõe na tela
+  os nossos flex itens ou itens em forma de coluna porém na ordem
+  inversa pois agora temos "column-reverse"*/
+  flex-direction: column-reverse;
+
+  /*Dentro do flexbox ou flexcontainer este atributo quebra na tela
+  os nossos flex itens ou itens dentro do nosso flexbox, quando
+  os itens atingem um limite do tamanho
+  do box do flexcontainer ele vai lá e realiza uma quebra de
+  linha OBS: Por padrão o atribuito flex-wrap:; é atribuido como
+  sendo nowrap ou seja não quebre linha.*/
+  flex-wrap: nowrap;
+
+  /*Alinha os flex itens todos ao centro ou seja o justify-content
+  tem propriedade de alinhar os itens ao longo do eixo principal.
+  Ele ajuda também a preencher o espaço vazio que sobrar no container
+  e por fim este atribuito exerce controle sobre os itens alinhados*/
+  justify-content: center;
+
+  /*Tem as mesmas funções do flex-wrap porém neste caso, ele realiza
+  um espaçamento igualmente entre os flex itens!*/
+  justify-content: space-between;
+
+  /* Os atributos align operam ou funcionam no eixo y diferente
+  do justify e do flex e logo podemos colocar um ínicio para
+  orientação logo se tiver align-items: flex-start teremos uma
+  renderização decima para baixo e se optarmos por flex-end
+  o que ocorrerá é uma rederização de baixo para cima ou melhor
+  do final para o ínicio do eixo.*/
+  align-items: flex-start;
+}
+
+.flex-itens {
+  background-color: #f1f1f1;
+  border: 2px solid #ccc;
+  height: 150px;
+  width: 300px;
+}

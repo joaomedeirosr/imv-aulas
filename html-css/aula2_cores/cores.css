@@ -1,0 +1,33 @@
+div {
+  height: 50px;
+  /* Nomenclatura de cores pelo nome já padronizado porém limitado*/
+  background-color: slateblue;
+
+  /*Hexadecimal tem 6 digitos começando em 0 porém
+  o VScode entende apenas com 3 digitos sendo:
+   
+  f vermelho f verde f azul 
+  Ou 
+
+  ff vermelho ff verde ff azul
+
+  Sendo assim, temos que independe o tipo de nomenclatura utilizda
+  */
+  background-color: #f0f;
+  background-color: #ffffff;
+
+  /* Nomenclatura de cor através do rgb o mais utilizado junto
+  com hexadecimal*/
+  background-color: rgb(255, 255, 255);
+
+  /* Nomenclatura de cor através do rgba forma de declarar a cor
+  com transparência na cor ou seja a letra "a" representa 
+  transparência. Essa nomenclatura segue a seguinte 'regra':
+
+  1º Parâmetro : Pigmentos da Cor vermelha em rgb
+  2º Parâmetro : Pigmentos da Cor verde em rgb
+  3º Parâmetro : Pigmentos da cor Azul em rgb
+  4º Parâmetro : Percentual de Transparência da cor variando de 0 a 1
+  */
+  background-color: rgba(255, 0, 255, 0.2);
+}

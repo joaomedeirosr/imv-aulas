@@ -1,0 +1,57 @@
+.d-inline {
+  /* Quando atribuo a minha div um display inline ela perde 
+  alguns "poderes" ou caracteristicas, estas caracteristicas
+  são características padrão do inline, logo perdemos os seguintes
+  "poderes":
+  
+  Não é possível mais atribuir a div ou a box o seguinte :
+  
+  height:100px ( ou qualquer valor)
+  width : 100px ( ou qualquer valor)
+  
+  @see : O display: inline; ele modela ou cria 
+   o tamanho da box ou da div
+  do tamanho do conteudo que esta dentro desta div ou box.
+
+  Isto se dá justamente por ele não ser um bloco. Outra 
+  característica
+  importante é que por ele não ser um bloco e ocupar o tamanho total
+  do conteúdo da página ele é posicionado na view lado a lado.
+  */
+  display: inline;
+  background-color: red;
+}
+
+.d-block {
+  display: block;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+/* Display inline-block mais utilizado pois tenho todas as
+características do block como possibilidade de atribuir
+height width e além de ter a característica de ocupar
+apenas o conteúdo da div ou da box a qual estamos !*/
+.d-iblock {
+  display: inline-block;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+/* O display none tem a inteção de ocultar algum conteúdo,
+porém como ele tem inteção apenas de ocultar o conteudo da
+camada da view ele ainda permanece com a box ou com a div dentro
+do DOM ou seja ele esta lá no local dele porém esta oculto em
+em relação a view!*/
+.d-none {
+  display: none;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
